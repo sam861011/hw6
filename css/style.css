@@ -1,0 +1,336 @@
+body{
+    width: 1440px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+header{
+    width: 1440px;
+    height: 130px;
+    padding-top: 40px;
+}
+
+header img{
+    margin-left: 60px;
+    width: 443px;
+    height: 80px;
+    float: left;
+}
+
+header ul{
+    float: right;
+    margin-top: 32px;
+    padding: 0;
+    padding-right: 55px;
+}
+
+header ul ls{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+header ls:hover{
+    color: #d7ac41;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 1440px;
+    height: 782px;
+    float: left;
+}
+
+.banner .top{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 微軟正黑體;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: 0;
+    top: 335px;
+    left: 315px;
+    color: white;
+}
+
+.banner .bottom{
+    font-size: 24px;
+    font-family: 微軟正黑體;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: 0;
+    top: 460px;
+    left: 498px;
+    color: white;
+}
+
+.about{
+    position: relative;
+}
+
+.about .background{
+    width: 1440px;
+    height: 754px;
+    float: left;
+}
+
+.about .icon{
+    position: absolute;
+    top: 100px;
+    left: 660px;
+    width: 120px;
+    height: 120px;
+}
+
+.about .top-container{
+    margin: 0px;
+    position: absolute;
+    color: white;
+    top: 260px;
+    left: 335px;
+    width: 770px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62;
+    font-family: 微軟正黑體;
+}
+
+.about p strong{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about .border{
+    position: absolute;
+    width: 62px;
+    border: solid 1px;
+    border-color: #d7ac41;
+    top: 467px;
+    left: 689px;
+}
+
+.about .bottom-container{
+    margin: 0px;
+    position: absolute;
+    color: white;
+    top: 507px;
+    left: 335px;
+    width: 770px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62;
+    font-family: 微軟正黑體;
+}
+
+.service{
+    position: relative;
+}
+
+.service img{
+    width: 1440px;
+}
+
+.service .border{
+    position: absolute;
+    width: 62px;
+    border: solid 1px;
+    border-color: #d7ac41;
+    top: 100px;
+    left: 689px;
+}
+
+.service p{
+    position: absolute;
+    margin: 0px;
+    top: 127px;
+    left: 620px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    font-family: 微軟正黑體;
+}
+
+.service ul{
+    position: absolute;
+    top: 238px;
+    padding: 0px;
+}
+
+.service ul ls{
+    width: 270px;
+    height: 60px;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 0px;
+    font-size: 16px;
+    color: #6c6c6c;
+    font-family: 微軟正黑體;
+    text-align: center;
+    line-height: 60px;
+}
+
+.team{
+    position: relative;
+    height: 850px;
+}
+
+.team .border{
+    position: absolute;
+    width: 62px;
+    border: solid 1px;
+    border-color: #d7ac41;
+    top: 100px;
+    left: 689px;
+}
+
+.team .title{
+    position: absolute;
+    margin: 0px;
+    top: 127px;
+    left: 620px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    font-family: 微軟正黑體;
+}
+
+.team .introduction{
+    position: absolute;
+    top: 230px;
+    left: 135px;
+    padding: 0px;
+}
+
+.team .introduction .text{
+    float: right;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(250,250,250);
+}
+
+.team .introduction .text p{
+    font-size: 16px;
+    font-family: 微軟正黑體;
+}
+
+.team .introduction .text .name{
+    position: absolute;
+    top: 60px;
+    left: 315px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.team .introduction .text .title-top{
+    position: absolute;
+    top: 131px;
+    left: 315px;
+    font-weight: 300;
+}
+
+.team .introduction .text .title-bottom{
+    position: absolute;
+    top: 171px;
+    left: 315px;
+    font-weight: 300;
+}
+
+.team .introduction .text .text-container{
+    position: absolute;
+    top: 210px;
+    left: 315px;
+}
+
+.team .introduction .text .email{
+    position: absolute;
+    top: 320px;
+    left: 315px;
+}
+
+.team .introduction .person{
+    position: relative;
+}
+
+.team .all-member{
+    position: absolute;
+    top: 690px;
+    left: 585px;
+    width: 270px;
+    height: 60px;
+    font-size: 16px;
+    border: solid 1px;
+    color: #d7ac41;
+    text-align: center;
+    line-height: 60px;
+    font-family: 微軟正黑體;
+    margin-bottom: 100px;
+}
+
+.contact{
+    position: relative;
+}
+
+.contact img{
+    width: 1440px;
+    height: 437px;
+}
+
+.contact .border{
+    position: absolute;
+    width: 62px;
+    border: solid 1px;
+    border-color: #d7ac41;
+    top: 100px;
+    left: 135px;
+}
+
+.contact .title{
+    position: absolute;
+    top: 127px;
+    left: 135px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    font-family: 微軟正黑體;
+}
+
+.contact p{
+    font-size: 16px;
+    font-family: 微軟正黑體;
+    margin-bottom: 20px;
+}
+
+.contact .email{
+    position: absolute;
+    top: 238px;
+    left: 135px;
+}
+
+.contact .information{
+    position: absolute;
+    top: 238px;
+    left: 520px;
+}
+
+footer{
+    background-color: #2b2c2c;
+    height: 48px;
+}
+
+footer p{
+    margin: 0px;
+    font-size: 16px;
+    color: rgb(200,200,200);
+    text-align: center;
+    line-height: 48px;
+}
+
+.clean{
+    clear: both;
+}
